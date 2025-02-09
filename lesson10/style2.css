@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "My Font";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./bpg_glaho.woff");
+}
+body {
+  font-family: "My Font";
+}

@@ -1,0 +1,30 @@
+.body {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 480px;
+  height: 480px;
+  background-color: blue;
+}
+/* @media all{} */
+@media print {
+  .box {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 768x) {
+  .box {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 320px) {
+  .box {
+    width: 100px;
+  }
+} */
